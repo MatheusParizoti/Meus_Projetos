@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    border-radius: 2px;
+}
+body{
+    background-color: #000;
+}
+
+header{
+
+    display: flex;
+}
+
+.main{
+
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 980px;
+    height: 460px;
+
+    margin: 15px auto;
+}
+
+.folder_logo{
+
+    background-color: #fff;
+    width: 80px;
+    height: 108px;
+
+    border-radius: 0 0 50px 0;
+
+    z-index: 1;
+
+    margin: 0 20px;
+}
+
+.logo img{
+    
+    width: 10px;
+    height: 10px;
+
+    z-index: 2;
+}
+/* .logo{
+    position: absolute;
+    z-index: 2;
+    margin-left: 30px;
+}
+.logo img{
+    width: 140px;
+    margin-left: 30px;
+}
+.bg{
+    position: relative;
+}
+.bg img{
+    max-width: 97.8%;
+    margin: 10px;
+    padding-top: 7px;
+}
+
+.menu p{
+    top: 500px;
+    color: wheat;
+    float: right;
+    
+} */
