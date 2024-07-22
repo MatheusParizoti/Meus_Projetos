@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.25rem ;
+    padding-block: 1.25rem;
+    max-width: 1300px;
+    margin-inline: auto;
+}
+.header__Logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav__ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav__a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header__icon-btn{
+    display: none;
+    background-color: transparent !important;
+    border: none;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+.header__icon{
+    width: 1.75rem;
+    height: 1.75rem;
+    
+}
+
+@media  (width < 768px ) {
+    .header__nav{
+        display: none;
+    }
+    .header__icon-btn{
+        display: block;
+    }
+}
