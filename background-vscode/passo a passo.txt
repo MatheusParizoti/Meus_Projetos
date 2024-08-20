@@ -1,0 +1,26 @@
+*Primeiro : baixar extensão backround 
+
+*Segundo : entrar nas settings.json da extensão
+
+*Terceiro : colar esse codigo adicional dentro do settings:
+
+ "background.enabled":  true,
+    "background.useFront": false,
+    "background.style": {
+
+        "content": "''",
+        "pointer-events": "none",
+        // "position": "absolute",
+        "z-index":"99999",
+        "width":"50%",
+        "right": 0,
+        "background-size": "cover",
+        "background-repeat":"no-repeat",
+        "opacity": 0.5
+    },
+    "background.customImages": [
+        "file:///C:/teste.png"
+    ],
+
+
+*Quarto : colocar a imagem teste o disco c 
